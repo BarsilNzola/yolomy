@@ -1,5 +1,7 @@
 #con-1 {
 	background-image: url(../images/hero.jpg);
+	background-size: cover;
+	height: 97vh;
 	text-align: center;
 	color: white;
 }
