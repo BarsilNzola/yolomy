@@ -48,4 +48,10 @@
 
 .button {
 	float: right;
+	background-color: brown;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	color: white;
+	margin-top: -13px;
 }
