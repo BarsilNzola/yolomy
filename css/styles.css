@@ -1,0 +1,28 @@
+#con-1 {
+	background-image: url(../images/hero.jpg);
+	text-align: center;
+	color: white;
+}
+
+.topnav {
+    background-color: rgba(255,255,255,0);
+    overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+}
