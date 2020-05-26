@@ -171,3 +171,9 @@ hr {
 #center {
 	text-align: center;
 }
+
+footer {
+	text-align: center;
+	font-size: smaller;
+	padding-top: 50px;
+}
