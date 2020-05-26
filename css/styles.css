@@ -56,13 +56,13 @@
 	margin-top: -13px;
 }
 
-#con-3 {
+#con-3, #con-6 {
 	padding: 40px 40px 30px 40px;
 }
 
 hr {
 	margin-top: 10px;
-	border: 1px;
+	height: 5px;
 }
 
 #fan {
@@ -70,4 +70,53 @@ hr {
 	float: right;
 	align-content: right;
 	padding-top: 15px;
+}
+
+#con-4 {
+	padding-right: 40px;
+}
+
+#con-5 {
+	margin-top: 60px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+#men {
+	padding-top: 10px;
+}
+
+.card {
+	background-color: gainsboro;
+	border: none;
+	padding: 15px 15px 15px 15px;
+	display: flex;
+	height: 325px;
+	width: 290px;
+}
+
+.card img {
+	direction: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dots {
+	float: right;
+}
+
+.description {
+	color: 	rgb(207,181,59);
+}
+
+.price {
+	float: right;
+	align-content: right;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
 }
