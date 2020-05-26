@@ -131,3 +131,23 @@ hr {
 	padding-left: 40px;
 	padding-bottom: 40px;
 }
+
+#con-9 {
+	background-image: url(../images/backgrounds/about.jpg);
+	background-size: cover;
+	height: 50vh;
+	text-align: center;
+	color: white;
+	padding-left: 400px;
+	padding-right: 400px;
+	padding-top: 100px;
+}
+
+.box {
+	border: 1px solid #908361;
+}
+
+#title {
+	padding-top: -10px;
+	display: inline;
+}
