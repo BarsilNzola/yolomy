@@ -61,6 +61,13 @@
 }
 
 hr {
-	margin-left: 75px;
-	margin-top: -25px;
+	margin-top: 10px;
+	border: 1px;
+}
+
+#fan {
+	color: 	rgb(207,181,59);
+	float: right;
+	align-content: right;
+	padding-top: 15px;
 }
