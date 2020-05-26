@@ -72,8 +72,9 @@ hr {
 	padding-top: 15px;
 }
 
-#con-4 {
+#con-4, #con-7 {
 	padding-right: 40px;
+	padding-left: 40px;
 }
 
 #con-5 {
@@ -119,4 +120,9 @@ hr {
   width: 25px;
   border-radius: 50%;
   display: inline-block;
+}
+
+#fam {
+	color: 	rgb(207,181,59);
+	padding-top: 15px;
 }
