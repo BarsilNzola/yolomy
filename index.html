@@ -19,7 +19,7 @@
 			</div>
 		</div>
 		<div class="row" id="disp">
-			<div class="col-md-12">
+			<div class="col-md-12" id="font">
 				<h1>Our clothing, your comfort</h1>
 			</div>
 		</div>
@@ -37,8 +37,8 @@
 	</div>
 	<div class="container-fluid" id="con-2">
 		<form>
-			<label class="checkbox-inline"><input style="margin-right: 10px;" type="checkbox" name="men">MEN</label>
-			<label class="checkbox-inline"><input style="margin-right: 10px;" type="checkbox" name="women">WOMEN</label>
+			<label class="checkbox-inline"><input style="margin-right: 10px;" type="checkbox" name="men" checked>MEN</label>
+			<label class="checkbox-inline"><input style="margin-right: 10px;" type="checkbox" name="women" checked>WOMEN</label>
 			<label class="checkbox-inline"><input style="margin-right: 10px;" type="checkbox" name="children">CHILDREN</label>
 			<button class="button">SEE ALL PRODUCTS</button>
 		</form>
@@ -72,18 +72,18 @@
 					<div class="size">
 						<strong>SIZE</strong>
 						<li class="fas fa-chevron-down"></li>
-					</div>
-					<div class="dots">
-						<span class="dot" bgcolor="green"></span>
-						<span class="dot" bgcolor="blue"></span>
-						<span class="dot" bgcolor="blue"></span>
+						<div class="dots">
+							<span class="dot" id="green"></span>
+							<span class="dot" id="blue"></span>
+							<span class="dot" id="black"></span>
+						</div>
 					</div>
 					<img src="images/products/tshirt.png">
 					<div class="description">
 						T-SHIRT
-					</div>
-					<div class="price">
-						5,000 &euro;
+						<div class="price">
+							5,000 &euro;
+						</div>
 					</div>
 				</div>
 			</div>
@@ -96,9 +96,9 @@
 					<img src="images/products/pants.png">
 					<div class="description">
 						PANTS FORCLAZ
-					</div>
-					<div class="price">
-						30,000 &euro;
+						<div class="price">
+							30,000 &euro;
+						</div>
 					</div>
 				</div>
 			</div>
@@ -111,9 +111,9 @@
 					<img src="images/products/backpack.png">
 					<div class="description">
 						BACKPACK
-					</div>
-					<div class="price">
-						60,000 &euro;
+						<div class="price">
+							60,000 &euro;
+						</div>
 					</div>
 				</div>
 			</div>
@@ -152,9 +152,9 @@
 					<img src="images/products/giacket.png">
 					<div class="description">
 						GIACKET
-					</div>
-					<div class="price">
-						60,000 &euro;
+						<div class="price">
+							60,000 &euro;
+						</div>
 					</div>
 				</div>
 			</div>
@@ -162,14 +162,14 @@
 				<div class="card">
 					<div class="size">
 						<strong>SIZE</strong>
-						<li class="fas fa-chevron-down"></li>
+						<li class="fas fa-chevron-down"></li><br>
 					</div>
 					<img src="images/products/trekkingshoes.png">
 					<div class="description">
 						TREKKING SHOES
-					</div>
-					<div class="price">
-						80,000 &euro;
+						<div class="price">
+							80,000 &euro;
+						</div>
 					</div>
 				</div>
 			</div>
@@ -178,17 +178,17 @@
 					<div class="size">
 						<strong>SIZE</strong>
 						<li class="fas fa-chevron-down"></li>
-					</div>
-					<div class="dots">
-						<span class="dot" bgcolor="maroon"></span>
-						<span class="dot" bgcolor="white"></span>
+						<div class="dots">
+							<span class="dot" id="pink"></span>
+							<span class="dot" id="white"></span>
+						</div>
 					</div>
 					<img src="images/products/tshirt_ladies.png">
 					<div class="description">
 						T-SHIRT
-					</div>
-					<div class="price">
-						20,000 &euro;
+						<div class="price">
+							20,000 &euro;
+						</div>
 					</div>
 				</div>
 			</div>
@@ -196,8 +196,8 @@
 	</div>
 
 	<div class="container-fluid" id="con-9">
-		<div class="box">
-			<div id="title">ABOUT US</div>
+		<fieldset>
+			<legend id="aboutus"><h5>ABOUT US</h5></legend>
 			<div>
 				<p>This is where high-fashion clothing is<br>
 					designed and crafted from the heart by<br>
@@ -206,7 +206,7 @@
 					is.
 				</p>
 			</div>
-		</div>
+		</fieldset>
 	</div>
 
 	<div class="container-fluid" id="con-10">

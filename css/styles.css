@@ -9,7 +9,10 @@
 #disp {
 	padding-top: 20vh;
 	padding-bottom: 20px;
-	font-size: xx-large;
+}
+
+#font {
+	font-size: 200%;
 }
 
 #mouse {
@@ -56,8 +59,8 @@
 	margin-top: -13px;
 }
 
-#con-3, #con-6, {
-	padding: 40px 40px 30px 40px;
+#con-3, #con-6 {
+	padding: 50px 40px 30px 40px;
 }
 
 hr {
@@ -92,6 +95,7 @@ hr {
 	border: none;
 	padding: 15px 15px 15px 15px;
 	display: flex;
+	justify-content: space-between;
 	height: 325px;
 	width: 290px;
 }
@@ -108,18 +112,41 @@ hr {
 
 .description {
 	color: 	rgb(207,181,59);
+	float: left;
 }
 
 .price {
 	float: right;
-	align-content: right;
+	text-align: right;
+	color: black;
 }
 
 .dot {
   height: 25px;
   width: 25px;
   border-radius: 50%;
+  margin-left: 0.25rem;
   display: inline-block;
+}
+
+#green {
+	background-color: green;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#black {
+	background-color: black;
+}
+
+#pink {
+	background-color: pink;
+}
+
+#white {
+	background-color: white;
 }
 
 #fam {
@@ -143,13 +170,15 @@ hr {
 	padding-top: 100px;
 }
 
-.box {
+fieldset {
 	border: 1px solid #908361;
 }
 
-#title {
-	padding-top: -10px;
-	display: inline;
+#aboutus {
+	top: 10px;
+	height: 20px;
+	width: 150px;
+	text-align: center;
 }
 
 #con-10 {
